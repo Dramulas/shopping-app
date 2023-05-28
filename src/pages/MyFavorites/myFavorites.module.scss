@@ -1,0 +1,133 @@
+@import '../../scss';
+
+.lighttheme__myfavorites {
+    background-color: $bg-secondary-light;
+
+    .myfavorites {
+        &__content {
+            background-color: $bg-secondary-light;
+        }
+
+        &__header {
+            background-color: $bg-primary-light;
+        }
+    }
+
+    .table__title {
+        text-align: center;
+    }
+
+    .table__button {
+        margin-right: 5px;
+    }
+}
+
+.darktheme__myfavorites {
+    background-color: $bg-tertiary-dark;
+
+    .table__title {
+        text-align: center;
+        color: $clr-primary-dark;
+    }
+
+    .table__button {
+        margin-right: 5px;
+    }
+
+    .products {
+        &__content {
+            background-color: $bg-secondary-dark;
+        }
+
+        &__header {
+            background-color: $bg-primary-dark;
+        }
+    }
+}
+
+@include xs {
+    .lighttheme__myfavorites {
+
+        .table {
+            &__title {
+                font-size: $fs-secondary-xs;
+            }
+        }
+    }
+
+    .darktheme__myfavorites {
+
+        .table {
+            &__title {
+                font-size: $fs-secondary-xs;
+            }
+        }
+    }
+}
+
+@include sm {
+    .lighttheme__myfavorites {
+
+        .table {
+            &__title {
+                font-size: $fs-secondary-sm;
+            }
+        }
+    }
+
+    .darktheme__myfavorites {
+
+        .table {
+            &__title {
+                font-size: $fs-secondary-sm;
+            }
+
+        }
+    }
+}
+
+@include md {
+    .lighttheme__myfavorites {
+
+        .table {
+            &__title {
+                font-size: $fs-secondary-md;
+            }
+        }
+    }
+
+    .darktheme__myfavorites {
+
+        .table {
+            &__title {
+                font-size: $fs-secondary-md;
+            }
+
+            &__content {
+                padding: 0.8rem;
+            }
+
+        }
+    }
+}
+
+@include lg {
+    .lighttheme__myfavorites {
+
+        .table {
+            &__title {
+                font-size: $fs-secondary-lg;
+            }
+
+        }
+    }
+
+    .darktheme__myfavorites {
+
+        .table {
+            &__title {
+                font-size: $fs-secondary-lg;
+            }
+        }
+    }
+}

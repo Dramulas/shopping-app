@@ -1,0 +1,23 @@
+{
+    "product_list": "Product List",
+    "price": "Price",
+    "title": "title",
+    "rating": "rating",
+    "stock": "stock",
+    "brand": "Marka",
+    "action": "Action",
+    "description": "Description",
+    "add_to_cart": "Add To Cart",
+    "add_to_my_favorites": "Add To Favorites",
+    "my_favorites": "My Favorites",
+    "my_cart": "My Cart",
+    "remove_from_my_favorites": "Remove from my favorite list",
+    "remove_from_cart": "Remove from Cart",
+    "added_to_cart": "Added to Cart",
+    "removed_from_cart": "Removed from Cart",
+    "added_to_my_favorites": "Added to My Favorites",
+    "removed_from_my_favorites": "Removed From My Favorites",
+    "turkish": "Turkish",
+    "english": "English",
+    "select_darkMode": "Select Darkmode"
+}

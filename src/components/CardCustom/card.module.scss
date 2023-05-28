@@ -1,0 +1,102 @@
+@import '../../scss';
+
+.lighttheme__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    min-width: 10rem;
+    margin: 0.5rem;
+    color: $clr-primary-light;
+    background-color: $bg-primary-light;
+
+    border-color: $bg-primary-light;
+
+    .card {
+        &__title {
+            color: $clr-primary-light;
+        }
+
+        &__description {
+            color: $clr-secondary-light;
+        }
+
+        &__cover {
+            color: $clr-primary-light;
+            border-radius: 8px 8px 0 0;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position-x: center;
+        }
+    }
+}
+
+.darktheme__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    min-width: 10rem;
+    margin: 0.5rem;
+    color: $clr-primary-dark;
+    background-color: $bg-primary-dark;
+    border-color: $bg-primary-dark;
+
+    .card {
+        &__title {
+            color: $clr-primary-dark;
+        }
+
+        &__description {
+            color: $clr-secondary-dark;
+        }
+
+        &__cover {
+            color: $clr-primary-dark;
+            border-radius: 8px 8px 0 0;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position-x: center;
+        }
+    }
+}
+
+@include xs {
+    .lighttheme__card {
+        .card {}
+    }
+
+    .darktheme__card {}
+}
+
+@include sm {
+    .lighttheme__card {}
+
+    .darktheme__card {}
+}
+
+@include md {
+    .lighttheme__card {}
+
+    .darktheme__card {}
+}
+
+@include lg {
+    .lighttheme__card {
+
+
+        .card {
+            &__cover {
+                height: 15rem;
+            }
+        }
+    }
+
+    .darktheme__card {
+        .card {
+            &__cover {
+                height: 15rem;
+            }
+        }
+    }
+}

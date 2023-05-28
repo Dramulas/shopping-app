@@ -1,0 +1,28 @@
+@import '../../scss/index';
+
+.lighttheme__sidebar {
+
+    .sidebar {
+        &__menu {
+            min-height: 100vh;
+            height: 100%;
+        }
+
+        &__tag {
+            margin-left: 5px;
+        }
+    }
+}
+
+.darktheme__sidebar {
+    .sidebar {
+        &__menu {
+            min-height: 100vh;
+            height: 100%;
+        }
+
+        &__tag {
+            margin-left: 5px;
+        }
+    }
+}

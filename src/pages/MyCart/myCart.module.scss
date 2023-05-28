@@ -1,0 +1,134 @@
+@import '../../scss';
+
+.lighttheme__mycart {
+    .mycart {
+        &__title {
+            color: $clr-primary-light;
+            text-align: center;
+        }
+
+        &__content {
+            display: flex;
+            justify-content: space-around;
+            padding: 5px;
+            flex-wrap: wrap;
+        }
+
+        &__header {
+            background-color: $bg-primary-light;
+        }
+    }
+
+}
+
+.darktheme__mycart {
+    background-color: $bg-tertiary-dark;
+
+    .mycart {
+        &__title {
+            color: $clr-primary-dark;
+            text-align: center;
+        }
+
+        &__content {
+            display: flex;
+            justify-content: space-around;
+            padding: 5px;
+            flex-wrap: wrap;
+            ;
+        }
+
+        &__header {
+            background-color: $bg-primary-dark;
+        }
+    }
+}
+
+@include xs {
+    .lighttheme__mycart {
+
+        .mycart {
+            &__title {
+                font-size: $fs-secondary-xs;
+            }
+
+            &__content {}
+        }
+
+        .darktheme__mycart {
+
+
+            .mycart {
+                &__title {
+                    font-size: $fs-secondary-xs;
+                }
+            }
+        }
+    }
+}
+
+@include sm {
+    .lighttheme__mycart {
+
+
+        .mycart {
+            &__title {
+                font-size: $fs-secondary-sm;
+            }
+
+        }
+    }
+
+    .darktheme__mycart {
+
+        .mycart {
+            &__title {
+                font-size: $fs-secondary-sm;
+            }
+
+        }
+    }
+}
+
+@include md {
+    .lighttheme__mycart {
+        .mycart {
+            &__title {
+                font-size: $fs-secondary-md;
+            }
+
+        }
+    }
+
+    .darktheme__mycart {
+
+        .mycart {
+            &__title {
+                font-size: $fs-secondary-md;
+            }
+
+        }
+    }
+}
+
+@include lg {
+    .lighttheme__mycart {
+
+        .mycart {
+            &__title {
+                font-size: $fs-secondary-lg;
+            }
+
+        }
+    }
+
+    .darktheme__mycart {
+
+
+        .mycart {
+            &__title {
+                font-size: $fs-secondary-lg;
+            }
+        }
+    }
+}
